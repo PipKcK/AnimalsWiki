@@ -1,0 +1,139 @@
+/* You can add custom CSS and extend Boostrap styles in this file.  Remember, Bootstrap is just CSS at the end of the day! */
+
+.navbar {
+	border-bottom: solid #a9a9a9 2px;
+}
+
+.navbar-nav {
+	border: solid white 2px;
+	border-radius: 3%;
+	padding: 0px 10px;
+	margin-top: 10px;
+	background-color: #212529;
+}
+
+@media only screen and (min-width: 995px) {
+	.navbar-nav {
+		border: none;
+	}
+}
+
+@media only screen and (max-width: 574px) {
+	.col-sm-4 {
+		border: solid white 1px;
+	}
+}
+
+#hero-section {
+	background-image: url("photos/2_PenguinHero.jpg");
+	opacity: 85%;
+	height: 80vh;
+	min-height: 600px;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero-text {
+	padding: 50px;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px black;
+	font-family: 'Oswald', sans-serif;
+}
+
+#img-carousel {
+	margin: auto;
+	border-radius: 10%;
+	width: 45vw;
+	border: solid black 2px;
+}
+
+.carousel {
+	padding-bottom: 5%;
+	margin: 0 25%;
+}
+
+#Wikipedia-section {
+	padding: 2%;
+}
+
+body {
+	position: relative;
+	background-color: #212529;
+}
+
+#Wikipedia-head,
+#contact-head,
+#footer-head {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+	padding: 25px;
+}
+
+.row {
+	text-align: center;
+	font-family: 'Arvo', serif;
+	color: white;
+	text-shadow: 1px 1px black;
+	margin-bottom: 30px;
+}
+
+.carousel-caption {
+	font-family: 'Arvo', serif;
+	text-shadow: 2px 2px black;
+}
+
+#contact {
+	color: white;
+}
+
+#me {
+	margin: 50px auto 0 auto;
+	border: solid white 2px;
+	border-radius: 50%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+	margin: 45% 5%;
+}
+
+i {
+	text-shadow: 2px 2px black;
+	color: white;
+}
+
+#logo {
+	border-radius: 10%;
+	margin-bottom: 5%;
+}
+
+#Wikipedia-section {
+	background-color: black;
+}
+
+.col-sm-3 {
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#contact-icons {
+	font-size: 300%;
+}
+
+#footer-section {
+	background-color: black;
+	text-shadow: 1px 1px #585454;
+}
+
+#home-target,
+#Wikipedia-section-target,
+#contact-section-target {
+	position: relative;
+	top: -60px;
+}

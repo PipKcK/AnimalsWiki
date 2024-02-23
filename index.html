@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <!-- TODO: Replace this with your title -->
+      <title>Animals</title>
+      <!-- 
+         TODO: Add Bootstrap CSS link tag from: 
+          	https://getbootstrap.com/docs/5.1/getting-started/introduction 
+         -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- 
+         TODO: Add Bootstrap Icons link tag from: 
+         https://icons.getbootstrap.com/
+         (Remember, the CDN link is towards the bottom of the page!)
+         -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+      <!-- Custom styles (these can extend the default Bootstrap styles) -->
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+   </head>
+   <body class = "scroll-top" data-bs-spy = "scroll" data-bs-target = ".navbar" data-bs-offset = "100">
+      <!-- TODO: Paste Navbar code and customize links -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark scrolling-navbar">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="https://youtu.be/BBJa32lCaaY"><i class="bi bi-hexagon"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item ms-auto">
+                     <a class="nav-link active" aria-current="page" href="#home-target"><i class="bi bi-house"></i></a>
+                  </li>
+                  <li class="nav-item ms-auto">
+                     <a class="nav-link" href="#Wikipedia-section-target">| Wiki |</a>
+                  </li>
+                  <li class="nav-item ms-auto">
+                     <a class="nav-link" href="#contact-section-target" id="contact"><i class="bi bi-chat"></i></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section id = "Home" >
+        <div id="home-target" ></div>
+         <!-- Hero section -->
+         <section id="hero-section">
+            <div class="hero-text">
+               <img src="photos/1_PenguinProfile.jpg" height = "200px" width="200px" id="me" class="img-fluid">
+               <h1 class="name">
+               Penguins
+               <h2 class="quote">Cute and Fluffy</h2>
+            </div>
+         </section>
+         <!-- Wikipedia/Meet-me section -->
+         <section id="Wikipedia-section">
+           <div id = "Wikipedia-section-target"></div>
+            <div class="container">
+               <div  id="Wikipedia-head">
+                  <h1>Wikipedia</h1>
+               </div>
+               <div class="row">
+                  <div class="col-sm-6">
+                     <img src="photos/WikipediaLogo.png" class="img-fluid" id="logo">
+                  </div>
+                  <div class="col-sm-6">
+                     <p style="text-align: left; margin-top: 10%;"><br> Penguins are a group of aquatic flightless birds from the family Spheniscidae (/sfɪˈnɪsɪdiː, -daɪ/) of the order Sphenisciformes (/sfɪˈnɪsəfɔːrmiːz/).[4] They live almost exclusively in the Southern Hemisphere: only one species, the Galápagos penguin, is found north of the Equator. Highly adapted for life in the ocean water, penguins have countershaded dark and white plumage and flippers for swimming. Most penguins feed on krill, fish, squid and other forms of sea life which they catch with their bills and swallow whole while swimming. A penguin has a spiny tongue and powerful jaws to grip slippery prey.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Contact Section -->
+         <section id="contact-section">
+           <div id="contact-section-target"></div>
+            <div class="container">
+               <div  id="contact-head">
+                  <h1>Peer Mentor's Links</h1>
+               </div>
+               <div class="row" id="contact-icons">
+                  <div class="col-sm-4">
+                     <a href="https://www.instagram.com/asuengineeringpeermentors/" target="_blank">
+                     <i class="bi bi-instagram"></i>
+                     </a>  
+                  </div>
+                  <div class="col-sm-4">
+                     <a href="https://students.engineering.asu.edu/peer-mentors/" target="_blank">
+                     <i class="bi bi-globe"></i>
+                     </a>
+                  </div>
+                  <div class="col-sm-4">
+                     <a href = "https://forms.gle/pJLRUZb51ZJbJE8z8" target="_blank">
+                     <i class="bi bi-clipboard-data"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Footer section -->
+         <section id="footer-section">
+            <div id="footer-head">
+               © Fulton Peer Mentors 2024
+            </div>
+         </section>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   </body>
+</html>
